@@ -58,6 +58,7 @@ class ViewController: UIViewController {
     }
     
     func to1D() -> Int {
+        print(row * 5 + currentTag)
         return row * 5 + currentTag
     }
     
